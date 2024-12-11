@@ -1,0 +1,131 @@
+/* Importando a fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* Geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; /* Usando o peso leve como padrão */
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.main {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20%;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 10px;
+    font-weight: 500; /* Poppins Medium */
+}
+
+/* Texto */
+p {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+p a {
+    color: #38c172;
+    font-weight: 500; /* Destaque leve */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário */
+form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555555;
+    background-color: #ffffff;
+}
+
+form .form-control:focus {
+    border-color: #38c172;
+    box-shadow: 0 0 5px rgba(56, 193, 114, 0.5);
+    outline: none;
+}
+
+form .form-text {
+    font-size: 0.875rem;
+    color: #888888;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Link de esqueci minha senha */
+form a.text-decoration-none {
+    font-size: 0.875rem;
+    color: #38c172;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300; /* Leve */
+}
+
+form a.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+/* Botão */
+form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #38c172;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500; /* Medium para destaque */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form .btn:hover {
+    background-color: #2e9c5b;
+}
+
+/* Imagem e outros elementos */
+.container-01 {
+    margin-bottom: 20px;
+}
+
+/* Container da imagem */
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+/* Imagem */
+.illustration {
+    width: auto; /* Faz a imagem ocupar toda a largura da viewport */
+    height: auto; /* Mantém a proporção */
+    position: relative;
+    display: block;
+}
+
